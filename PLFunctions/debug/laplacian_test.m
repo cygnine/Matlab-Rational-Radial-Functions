@@ -4,7 +4,7 @@ cd ..
 N = 100;       % number of unknowns
 scale = 4.0;   % scaling parameter
 alpha = -1/2;  
-s = 1;
+s = 3/4;
 f = @(x) exp(-x.^2);
 df = @(x) -2*x.*exp(-x.^2);
 ddf = @(x) -2*exp(-x.^2) - 2*x.*-2.*x.*exp(-x.^2);
